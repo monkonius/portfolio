@@ -40,12 +40,18 @@ section {
     flex: 1;
 }
 
-.container p {
+section {
     font-size: 16px;
 }
 
-table {
-    font-size: 16px;
+section p {
+    padding: 0 24px;
+}
+
+.music-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -60,7 +66,7 @@ a:hover {
     text-decoration: underline;
 }
 
-ul {
+header ul, footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
